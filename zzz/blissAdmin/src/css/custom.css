@@ -1,0 +1,38 @@
+span.form-error {
+  color: red;
+  font-size: 12px;
+}
+
+.stat {
+  background: #e0eafc;
+  border-radius: 50%;
+  height: 48px;
+  padding: .75rem;
+  width: 48px;
+  font-size: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sidebar-link i {
+  font-size: 18px;
+}
+
+.dropdown-menu.dropdown-menu-end.show {
+  left: auto;
+  right: 0;
+}
+
+.rounded-circle {
+  border: 1px solid #ecebeb;
+}
+
+td.centre {
+  text-align: center;
+}
+
+.hxMxFn > input {
+  font-size: 14px!important;
+  color: #495057!important;
+}

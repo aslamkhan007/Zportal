@@ -1,0 +1,235 @@
+@import '../../assets/scss/variables.scss';
+/**/
+.login-box {
+  max-width: 480px;
+  width:100%;
+  margin: 0 auto;
+  background-color: $white-color;
+  border-radius: 10px;
+  padding:35px 20px;
+  margin-top: 80px;
+  box-shadow: 0px 6px 15px 5px rgba(0, 0, 0, 0.15);
+  @media(max-width:500px){
+    max-width: 95%;
+    padding: 35px 30px;
+  }
+  h2{
+    font-size:53px;
+    @media(max-width:600px){
+      font-size:40px;
+    }
+    @media(max-width:380px){
+      font-size:32px;
+    }
+  }
+  input{
+    background:$white-color;
+    border: 1px solid $primary-gray-color;
+    box-sizing: border-box;
+    border-radius: 3px;
+    height:35px;
+    &:focus,&:visited{
+      outline:none;
+      box-shadow:none;
+      border: 1px solid $primary-gray-color;
+    }
+  }
+  .forgetpassword {
+    position: relative;
+    top: 0px;
+    margin-bottom: 4px;
+ }
+ .btn{
+   &:focus,&:visited{
+     outline:none;
+     box-shadow:none;
+   }
+  
+ }
+
+ .loginback {
+  cursor: pointer;
+  position: relative;
+  top: -15px;
+  right:0px;
+  padding-left:5px;
+  color:rgba(12, 24, 38, 0.5);
+ }
+ &.selectworkspace{
+   max-width:800px;
+   width:100%;
+   padding-top: 55px;
+    padding-bottom: 55px;
+   .work-space-form {
+    max-width: 430px;
+    margin: auto;
+    .form-group{
+      margin-bottom:50px;
+      label{
+        margin-bottom:15px;
+        font-size: 26px;
+      }
+    }
+    button[type="submit"] {
+      margin-bottom: 25px;
+      display: inline-block;
+      margin:0px;
+   }
+   input{
+     max-width: 370px;
+     width: 100%;
+     height: 42px;
+   }
+   button[type="submit"] {
+    margin: auto;
+    padding: 19px 39px;
+   }
+  }
+  .tp-bk-sk{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+  }
+  .workspace-avatar{
+    .workspace-name-box{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .workspace-pic{
+        margin-right: 25px;
+         img {
+            width:100px;
+            border-radius: 50%;
+            height: 100px;
+         }
+      }
+      .workspace-img-color{
+        width: 100%;
+        .workspace-import-img{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          border-bottom: 1px solid $primary-gray-color;
+          padding-bottom: 20px;
+          margin-bottom: 20px;
+          .import-btn {
+            max-width: 106px;
+            width:100%; 
+            margin: 0px !important;
+            padding: 7px;
+            text-transform: capitalize;
+         }
+        }
+        .workspace-color{
+          display: flex;
+          align-items: center;
+          .color-selector {
+            width: 35px;
+            height: 35px;
+            overflow: hidden;
+            border-radius: 2px;
+            border: none;
+        }
+        .workspace-circlecolor{
+          margin-left: 20px;
+        }
+          input{
+            width: 40px;
+            height: 40px;
+            border: none;
+            padding: 0;
+            position: relative;
+            right: 1px;
+            bottom: 1px;
+          }
+        }
+      }
+      span{
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 31px;
+        color: $text-color;
+      }
+    }
+  }
+ }
+.form-select{
+   &:focus{
+     outline:none;
+     box-shadow:none;
+     border:1px solid #ced4da;
+   }
+ }
+  .loginform {
+    max-width: 370px;
+    margin: auto;
+  }
+}
+p.error_mesage{
+  color:$primary-color;
+}
+.auth-sec {
+  background-image: url(../../assets/images/auth-bg.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  display: flex;
+  min-height:100%;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  margin: auto;
+  width: 100%;
+}
+.form-group{
+  position: relative;
+}
+.register-box,.resetpassword-box {
+  .error_mesage + ul {
+  position: absolute;
+  right: -67%;
+  z-index: 99;
+  background: rgba(255,255,255,0.9);
+  padding: 5px 0px;
+  top: 25px;
+  li {
+    padding: 5px 15px;
+    border-bottom: 1px solid #dedede;
+    &.valid svg {
+      width: 15px;
+    }
+    &.invalid svg {
+      height: 13px;
+    }
+    &:last-child{
+      border-bottom: none;
+    }
+   }
+  }
+}
+.MuiDataGrid-root {
+  .MuiDataGrid-columnHeaderWrapper {
+    .MuiDataGrid-columnHeaderTitle {
+      font-family: 'Conv_Sofia_Pro_Medium';
+      font-weight: 400 !important;
+      font-size: 18px;
+      color:$table-color;
+    }
+  }
+}
+.notification-container {
+  height: auto !important;
+}
+button.MuiButtonBase-root.MuiIconButton-root.MuiIconButton-sizeSmall:before {
+  border-top: 8px solid $white-color !important;
+}
+.MuiDataGrid-root .MuiDataGrid-iconSeparator {
+  color: #a93437;
+}
+// .notification-container {
+//   display: none;
+// }
+.MuiDataGrid-root .MuiDataGrid-columnHeader--moving {
+  background-color: transparent !important;
+}

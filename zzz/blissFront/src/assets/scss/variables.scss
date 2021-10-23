@@ -1,0 +1,24 @@
+/* Variables  */
+// $primary-color : #ffba00;
+$primary-color : #FA6164;
+$text-color : #0C1826;
+$primary-gray-color : #DBDBDB;
+$gray-bg : #F4F4F4;
+$gray-color : #C1BEBE;
+$green-color : #79EC7D;
+$pink-color : #F96EFC;
+$blue-color : #8BDCFF;
+$orange-color : #FF6969;
+$royal-color : #2290FF;
+$yellow-color : #F4D75A;
+$white-color:#ffffff;
+$dark-gray:#9D9D9D;
+$table-color: #0D1825;
+
+
+@mixin sofisemibold {
+    font-family: 'Conv_Sofia_Pro_Semi_Bold';
+  }
+  @mixin sofia-medium {
+    font-family: 'Conv_Sofia_Pro_Medium';
+  }

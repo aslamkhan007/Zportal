@@ -1,0 +1,53 @@
+@import '../../assets/scss/variables.scss';
+.top-bar {
+  border-bottom: 2px solid $primary-gray-color;
+  padding: 0.75rem 1.75rem 0 1.75rem;
+  @media (max-width: 1024px) {
+    padding-left:1.5rem;
+    padding-right: 1.5rem;
+    height: auto;
+  }
+  .auth-dropdown {
+    .btn {
+      background: none;
+      border: none;
+      color: inherit;
+      padding: 0;
+    }
+  }
+
+  .topbar-search {
+    position: relative;
+    svg {
+      position: absolute;
+      left: 10px;
+      top: 8px;
+    }
+    .form-control {
+      padding-left: 2.5rem;
+      border-radius: 30px;
+      height: calc(2em + .35rem + 2px);
+    }
+  }
+  .head-notify {
+    svg {
+      @media (max-width: 767px) {
+        width: 22px;
+      }
+    }
+  }
+  .top-bar-title {
+    @media (max-width: 767px) {
+      width: 75%;
+      margin-top: 0px;
+    }
+  }
+  button{
+    img{
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+ 
+}

@@ -1,0 +1,20 @@
+@import '../../assets/scss/variables.scss';
+.auth-header {
+  padding: 20px 0px;
+  .navbar-nav {
+
+    .nav-link {
+      font-size: 18px;
+      color: $text-color;
+      padding-left: 80px;
+      padding-right:0px;
+      text-transform:uppercase;
+    }
+  }
+  .me-auto {
+    padding-left: 22px;
+ }
+ #basic-navbar-nav {
+  padding-right: 238px;
+ }
+}

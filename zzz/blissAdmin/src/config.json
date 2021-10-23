@@ -1,0 +1,11 @@
+{
+    "API_URL": "http://localhost:5000",
+    "OLD_API_URL": "http://localhost:5000",
+    "domain_url": ".bliss.com",
+    "A_TITLE": "Admin",
+    "C_TITLE": "Bliss Admin",
+    "OLD_BASE_URL": "http://localhost:3000",
+    "BASE_URL": "http://localhost:3000",
+    "CLIENT_BASE_URL": "http://localhost:3000"
+
+}
